@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Proyecto2PJesusGastelum.Motos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto2PJesusGastelum"
+             mc:Ignorable="d" 
+             d:DesignHeight="293.814" d:DesignWidth="764.433">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Marca:" VerticalAlignment="Top" Margin="15,23,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,23,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Modelo:" VerticalAlignment="Top" Margin="15,56,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,56,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Color:" VerticalAlignment="Top" Margin="15,90,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,90,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Margin="15,123,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,123,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio:" VerticalAlignment="Top" Margin="366,24,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,24,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Envío:" VerticalAlignment="Top" Margin="366,57,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,57,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Meses sin interese:" VerticalAlignment="Top" Margin="366,90,0,0"/>
+        <RadioButton Content="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="494,90,0,0"/>
+        <RadioButton Content="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="539,90,0,0"/>
+        <RadioButton Content="36" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="582,90,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Seguro:" VerticalAlignment="Top" Margin="366,123,0,0"/>
+        <CheckBox Content="Robo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,127,0,0"/>
+        <CheckBox Content="Choque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="517,152,0,0"/>
+        <CheckBox Content="Incendio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,152,0,0"/>
+        <CheckBox Content="Descomponerse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="518,127,0,0"/>
+        <CheckBox Content="Robo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,176,0,0"/>
+        <CheckBox Content="Choque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="517,201,0,0"/>
+        <CheckBox Content="Incendio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,201,0,0"/>
+        <CheckBox Content="Descomponerse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="518,176,0,0"/>
+    </Grid>
+</UserControl>
