@@ -18,8 +18,8 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tipos de Productos:" VerticalAlignment="Top" Margin="46,34,0,0" FontSize="24"/>
-        <ComboBox x:Name="cbCategoria" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="260,34,0,0" FontSize="20">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Elige un instrumento:" VerticalAlignment="Top" Margin="35,34,0,0" FontSize="24"/>
+        <ComboBox x:Name="cbCategoria" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="274,34,0,0" FontSize="20">
             <ComboBoxItem>Piano</ComboBoxItem>
             <ComboBoxItem>Guitarra Eléctrica</ComboBoxItem>
             <ComboBoxItem>Batería</ComboBoxItem>
