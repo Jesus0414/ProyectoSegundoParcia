@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto2PJesusGastelum"
         mc:Ignorable="d"
-        Title="MainWindow" Height="516" Width="801.5">
+        Title="MainWindow" Height="477" Width="801.5">
     <Window.Background>
         <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
-            <GradientStop Color="#FFA25404" Offset="1"/>
+            <GradientStop Color="#FFA25404" Offset="0.96"/>
             <GradientStop Color="#FF77E0FF" Offset="0.847"/>
             <GradientStop Color="White" Offset="0.407"/>
             <GradientStop Color="#FF77E0FF"/>
@@ -20,12 +20,16 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tipos de Productos:" VerticalAlignment="Top" Margin="46,34,0,0" FontSize="24"/>
         <ComboBox x:Name="cbCategoria" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="260,34,0,0" FontSize="20">
-            <ComboBoxItem>Automoviles</ComboBoxItem>
-            <ComboBoxItem>Motocicletas</ComboBoxItem>
+            <ComboBoxItem>Piano</ComboBoxItem>
+            <ComboBoxItem>Guitarra Eléctrica</ComboBoxItem>
+            <ComboBoxItem>Batería</ComboBoxItem>
+            <ComboBoxItem>Bajo</ComboBoxItem>
+            <ComboBoxItem>Maracas</ComboBoxItem>
+            <ComboBoxItem>Violín</ComboBoxItem>
         </ComboBox>
         <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="638,34,0,0" FontSize="22" Click="btnAgregar_Click"/>
         <Grid x:Name="grdProductos" HorizontalAlignment="Left" Height="280" VerticalAlignment="Top" Width="690" Margin="46,108,0,0"/>
-        <Button x:Name="btnGuardar" Visibility="Hidden" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="508,438,0,0" FontSize="22" Click="btnGuardar_Click"/>
-        <Button x:Name="btnCancelar" Visibility="Hidden" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="638,438,0,0" FontSize="22" Click="btnCancelar_Click"/>
+        <Button x:Name="btnGuardar" Visibility="Hidden" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="500,393,0,0" FontSize="22" Click="btnGuardar_Click"/>
+        <Button x:Name="btnCancelar" Visibility="Hidden" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="638,393,0,0" FontSize="22" Click="btnCancelar_Click"/>
     </Grid>
 </Window>

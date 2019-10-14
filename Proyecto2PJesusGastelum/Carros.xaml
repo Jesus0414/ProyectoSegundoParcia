@@ -14,18 +14,30 @@
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Color:" VerticalAlignment="Top" Margin="15,90,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,90,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Margin="15,123,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,123,0,0"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="137" Margin="143,123,0,0">
+            <ComboBoxItem>2019</ComboBoxItem>
+            <ComboBoxItem>2018</ComboBoxItem>
+            <ComboBoxItem>2017</ComboBoxItem>
+            <ComboBoxItem>2016</ComboBoxItem>
+            <ComboBoxItem>2015</ComboBoxItem>
+        </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio:" VerticalAlignment="Top" Margin="366,24,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,24,0,0"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Seguro:" VerticalAlignment="Top" Margin="366,57,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Envío:" VerticalAlignment="Top" Margin="366,57,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,57,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Meses sin interese:" VerticalAlignment="Top" Margin="366,90,0,0"/>
         <RadioButton Content="12" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="494,90,0,0"/>
         <RadioButton Content="24" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="539,90,0,0"/>
         <RadioButton Content="36" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="582,90,0,0"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Envío:" VerticalAlignment="Top" Margin="366,123,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,123,0,0"/>
-        
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Seguro:" VerticalAlignment="Top" Margin="366,123,0,0"/>
+        <CheckBox Content="Robo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,127,0,0"/>
+        <CheckBox Content="Choque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="517,152,0,0"/>
+        <CheckBox Content="Incendio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,152,0,0"/>
+        <CheckBox Content="Descomponerse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="518,127,0,0"/>
+        <CheckBox Content="Robo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,176,0,0"/>
+        <CheckBox Content="Choque" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="517,201,0,0"/>
+        <CheckBox Content="Incendio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="435,201,0,0"/>
+        <CheckBox Content="Descomponerse" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="518,176,0,0"/>
 
     </Grid>
 </UserControl>

@@ -14,7 +14,13 @@
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Color:" VerticalAlignment="Top" Margin="15,90,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,90,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Año:" VerticalAlignment="Top" Margin="15,123,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="143,123,0,0"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="137" Margin="143,123,0,0">
+            <ComboBoxItem>2019</ComboBoxItem>
+            <ComboBoxItem>2018</ComboBoxItem>
+            <ComboBoxItem>2017</ComboBoxItem>
+            <ComboBoxItem>2016</ComboBoxItem>
+            <ComboBoxItem>2015</ComboBoxItem>
+        </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Precio:" VerticalAlignment="Top" Margin="366,24,0,0"/>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="494,24,0,0"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Envío:" VerticalAlignment="Top" Margin="366,57,0,0"/>
